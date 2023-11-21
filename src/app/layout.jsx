@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { MoviesProvider } from "./context/movies.jsx";
+import { MoviesProvider } from "../context/movies.jsx";
 
 const inter = Inter({ subsets: ["latin"] });
 

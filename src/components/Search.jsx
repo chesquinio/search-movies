@@ -1,6 +1,6 @@
 "use client";
 
-import { useMoviesContext } from "@/app/context/movies";
+import { useMoviesContext } from "@/context/movies";
 import { useMovies } from "@/hooks/useMovies";
 import { useSearch } from "@/hooks/useSearch";
 import debounce from "just-debounce-it";

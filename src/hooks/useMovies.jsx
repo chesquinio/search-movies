@@ -1,7 +1,7 @@
 "use client";
 
-import { useMoviesContext } from "@/app/context/movies";
-import { searchMovies } from "@/app/services/movies";
+import { useMoviesContext } from "@/context/movies";
+import { searchMovies } from "@/services/movies";
 import { useRef, useState, useCallback, useMemo } from "react";
 
 export function useMovies() {
