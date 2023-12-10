@@ -8,11 +8,11 @@ function resolveMovies({ movies }) {
       {movies?.map((movie) => (
         <li
           key={movie.id}
-          className="flex flex-col justify-center items-center text-white"
+          className="flex flex-col justify-center items-center text-white bg-gray-700 rounded px-5 py-2"
         >
           <h2>{movie.title}</h2>
           <p>{movie.year}</p>
-          <div className="mt-5">
+          <div className="mt-2">
             <img src={movie.image} alt={movie.title} className="rounded" />
           </div>
         </li>
